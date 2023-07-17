@@ -1,0 +1,59 @@
+*{
+  max-width: 1200px
+}
+
+.header{
+  width: 500px;
+  height: 500px;
+  border: 2px black solid;
+}
+
+.menu {
+    width: 250px;
+    height: 250px;
+    border: 2px black solid;
+}
+
+.menuText {
+
+}
+
+.ribbon {
+    
+}
+
+.ribbonText {
+
+}
+
+.body {
+  
+}
+
+.bodyText {
+  
+}
+
+.paragraphs {
+  
+}
+
+.footNote {
+  
+}
+
+.sideBar {
+  
+}
+
+.sideBarText {
+  
+}
+
+.footer {
+  
+}
+
+.footerText {
+  
+}

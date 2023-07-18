@@ -1,59 +1,110 @@
-*{
-  max-width: 1200px
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 1200px; 
+	margin: 0 auto; 
+	float: none; 
 }
 
-.header{
-  width: 500px;
-  height: 500px;
-  border: 2px black solid;
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+  height: 140px;
+  background-color: #577590;
 }
 
 .menu {
-    width: 250px;
-    height: 250px;
-    border: 2px black solid;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 15px;
+  height: 30px;
+  background-color: #43aa8b;
 }
 
 .menuText {
+  width: 20%;
+  height: 30px;
+  background-color: #f94144;
+}
 
+.middleMenuText {
+  width: 60%;
+  height: 30px;
+  background-color: #f94144;
 }
 
 .ribbon {
-    
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+  height: 30px;
+  background-color: #90be6d;
 }
 
 .ribbonText {
-
+  height: 30px;
+  background-color: #f9c74f;
 }
 
 .body {
-  
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 15px;
+  height: 165px;
+  background-color: #f9c74f;
 }
 
 .bodyText {
-  
+  display: grid;
+  grid-template-columns: 50% auto;
+  gap: 15px;
+  padding: 15px;
+  width: 65%;
+  background-color: #f8961e;
+  align-items: center;
+  align-content: center;
 }
 
 .paragraphs {
-  
+  height: 30px;
+  background-color: #f3722c;
 }
 
 .footNote {
-  
+  width: 199%;
+  height: 30px;
+  background-color: #f94144;
 }
 
 .sideBar {
-  
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+  width: 35%;
+  background-color: #f3722c;
 }
 
 .sideBarText {
-  
+  height: 30px;
+  background-color: #577590;
 }
 
 .footer {
-  
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  height: 30px;
+  background-color: #f94144
 }
 
 .footerText {
-  
+  height: 30px;
+  background-color: #577590;
 }

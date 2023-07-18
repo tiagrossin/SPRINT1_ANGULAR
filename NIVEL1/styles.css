@@ -13,7 +13,7 @@
   gap: 15px;
   padding: 15px;
   height: 140px;
-  background-color: #577590;
+  background-color: #344e41;
 }
 
 .menu {
@@ -22,19 +22,19 @@
   gap: 15px;
   padding: 15px;
   height: 30px;
-  background-color: #43aa8b;
+  background-color: #588157;
 }
 
 .menuText {
   width: 20%;
   height: 30px;
-  background-color: #f94144;
+  background-color: #dad7cd;
 }
 
 .middleMenuText {
   width: 60%;
   height: 30px;
-  background-color: #f94144;
+  background-color: #dad7cd;
 }
 
 .ribbon {
@@ -43,12 +43,12 @@
   gap: 15px;
   padding: 15px;
   height: 30px;
-  background-color: #90be6d;
+  background-color: #588157;
 }
 
 .ribbonText {
   height: 30px;
-  background-color: #f9c74f;
+  background-color: #3a5a40;
 }
 
 .body {
@@ -57,7 +57,7 @@
   gap: 15px;
   padding: 15px;
   height: 165px;
-  background-color: #f9c74f;
+  background-color: #344e41;
 }
 
 .bodyText {
@@ -66,20 +66,20 @@
   gap: 15px;
   padding: 15px;
   width: 65%;
-  background-color: #f8961e;
+  background-color: #588157;
   align-items: center;
   align-content: center;
 }
 
 .paragraphs {
   height: 30px;
-  background-color: #f3722c;
+  background-color: #dad7cd;
 }
 
 .footNote {
   width: 199%;
   height: 30px;
-  background-color: #f94144;
+  background-color: #3a5a40;
 }
 
 .sideBar {
@@ -88,12 +88,12 @@
   gap: 15px;
   padding: 15px;
   width: 35%;
-  background-color: #f3722c;
+  background-color: #588157;
 }
 
 .sideBarText {
   height: 30px;
-  background-color: #577590;
+  background-color: #dad7cd;
 }
 
 .footer {
@@ -101,10 +101,10 @@
   flex-direction: column;
   padding: 15px;
   height: 30px;
-  background-color: #f94144
+  background-color: #344e41;
 }
 
 .footerText {
   height: 30px;
-  background-color: #577590;
+  background-color: #dad7cd;
 }

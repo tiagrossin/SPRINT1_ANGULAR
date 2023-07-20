@@ -11,30 +11,26 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
-  padding: 15px;
-  height: 140px;
-border: 2px solid black;
+  background-image: url(https://raw.githubusercontent.com/tiagrossin/SPRINT1_ANGULAR/main/NIVEL2/images/header.jpg);
+  background-size: cover;
+  background-position: center;
+  height: auto;
 }
 
 .menu {
   display: flex;
-  flex-direction: row;
   gap: 15px;
   padding: 15px;
-  height: 30px;
-border: 2px solid black;
-}
-
-.menuText {
-  width: 20%;
-  height: 30px;
-border: 2px solid black;
+  border: 2px solid black;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .middleMenuText {
-  width: 60%;
+  width: 100%;
   height: 30px;
-border: 2px solid black;
+  border: 2px solid black;
 }
 
 .ribbon {
@@ -42,13 +38,12 @@ border: 2px solid black;
   flex-direction: column;
   gap: 15px;
   padding: 15px;
-  height: 30px;
-border: 2px solid black;
+  border: 2px solid black;
 }
 
 .ribbonText {
   height: 30px;
-border: 2px solid black;
+  border: 2px solid black;
 }
 
 .body {
@@ -57,7 +52,7 @@ border: 2px solid black;
   gap: 15px;
   padding: 15px;
   height: 165px;
-border: 2px solid black;
+  border: 2px solid black;
 }
 
 .bodyText {
@@ -66,20 +61,20 @@ border: 2px solid black;
   gap: 15px;
   padding: 15px;
   width: 65%;
-border: 2px solid black;
+  border: 2px solid black;
   align-items: center;
   align-content: center;
 }
 
 .paragraphs {
   height: 30px;
-border: 2px solid black;
+  border: 2px solid black;
 }
 
 .footNote {
   width: 200%;
   height: 30px;
-border: 2px solid black;
+  border: 2px solid black;
 }
 
 .sideBar {
@@ -88,12 +83,12 @@ border: 2px solid black;
   gap: 15px;
   padding: 15px;
   width: 35%;
-border: 2px solid black;
+  border: 2px solid black;
 }
 
 .sideBarText {
   height: 30px;
-border: 2px solid black;
+  border: 2px solid black;
 }
 
 .footer {
@@ -101,12 +96,12 @@ border: 2px solid black;
   flex-direction: column;
   padding: 15px;
   height: 30px;
-border: 2px solid black;
+  border: 2px solid black;
 }
 
 .footerText {
   height: 30px;
-border: 2px solid black;
+  border: 2px solid black;
 }
 
 @media (min-width: 480px) and (max-width: 1024px) {

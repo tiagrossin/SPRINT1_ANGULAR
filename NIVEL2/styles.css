@@ -13,7 +13,7 @@
   gap: 15px;
   padding: 15px;
   height: 140px;
-  background-color: #344e41;
+border: 2px solid black;
 }
 
 .menu {
@@ -22,19 +22,19 @@
   gap: 15px;
   padding: 15px;
   height: 30px;
-  background-color: #588157;
+border: 2px solid black;
 }
 
 .menuText {
   width: 20%;
   height: 30px;
-  background-color: #dad7cd;
+border: 2px solid black;
 }
 
 .middleMenuText {
   width: 60%;
   height: 30px;
-  background-color: #dad7cd;
+border: 2px solid black;
 }
 
 .ribbon {
@@ -43,12 +43,12 @@
   gap: 15px;
   padding: 15px;
   height: 30px;
-  background-color: #588157;
+border: 2px solid black;
 }
 
 .ribbonText {
   height: 30px;
-  background-color: #3a5a40;
+border: 2px solid black;
 }
 
 .body {
@@ -57,7 +57,7 @@
   gap: 15px;
   padding: 15px;
   height: 165px;
-  background-color: #344e41;
+border: 2px solid black;
 }
 
 .bodyText {
@@ -66,20 +66,20 @@
   gap: 15px;
   padding: 15px;
   width: 65%;
-  background-color: #588157;
+border: 2px solid black;
   align-items: center;
   align-content: center;
 }
 
 .paragraphs {
   height: 30px;
-  background-color: #dad7cd;
+border: 2px solid black;
 }
 
 .footNote {
   width: 200%;
   height: 30px;
-  background-color: #3a5a40;
+border: 2px solid black;
 }
 
 .sideBar {
@@ -88,12 +88,12 @@
   gap: 15px;
   padding: 15px;
   width: 35%;
-  background-color: #588157;
+border: 2px solid black;
 }
 
 .sideBarText {
   height: 30px;
-  background-color: #dad7cd;
+border: 2px solid black;
 }
 
 .footer {
@@ -101,12 +101,12 @@
   flex-direction: column;
   padding: 15px;
   height: 30px;
-  background-color: #344e41;
+border: 2px solid black;
 }
 
 .footerText {
   height: 30px;
-  background-color: #dad7cd;
+border: 2px solid black;
 }
 
 @media (min-width: 480px) and (max-width: 1024px) {

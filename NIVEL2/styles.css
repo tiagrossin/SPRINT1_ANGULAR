@@ -1,0 +1,26 @@
+.wrapper {
+  display: grid;
+  gap: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  float: none;
+}
+
+.header {
+  gap: 15px;
+  padding: 15px;
+  height: 140px;
+  border: 2px black;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (min-width: 480px) and (max-width: 1024px) {
+}
+
+@media (min-width: 150px) and (max-width: 480px) {
+}

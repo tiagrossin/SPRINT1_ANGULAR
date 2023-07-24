@@ -43,7 +43,7 @@
 a:hover,
 a:focus {
   filter: sepia(100%);
-  background-color:rgb(117, 58, 19);
+  background-color: rgb(117, 58, 19);
 }
 
 .socials {
@@ -79,34 +79,77 @@ a:focus {
   height: auto;
 }
 
+.container {
+  background-color: rgb(128, 128, 128, 0.3);
+  width: 80%;
+}
+
 .posts {
   display: grid;
-  grid-template-columns: 50% auto;
+  grid-template-columns: auto auto;
+  position: relative;
   gap: 15px;
   padding: 15px;
-  width: 65%;
-  border: 2px solid black;
+  width: auto;
   align-items: center;
   align-content: center;
 }
 
-.postThumnail {
-  height: 30px;
-  border: 2px solid black;
+.postThumbnail {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background-color: rgb(255, 255, 255, 0.8);
 }
 
-.footNote {
-  width: 200%;
-  height: 30px;
-  border: 2px solid black;
+.postThumbnailPhoto {
+  width: 100%;
+  height: 40%;
+  object-fit: contain;
+  position: relative;
+}
+
+.postDate {
+  color: orange;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: auto;
+  position: absolute;
+  left: 3%;
+  top: 90%;
+  font-size: medium;
+}
+
+.postTitle {
+  padding-top: 10px;
+  padding-left: 5px;
+  width: auto;
+  color: antiquewhite;
+  background-color: salmon;
+  font-family: sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.postPreview {
+  padding: 20px;
+  column-count: 2;
+  text-align: justify;
+}
+
+.seeMore {
+  font-family: sans-serif;
+  color: grey;
+  padding-left: 15px;
+  padding-bottom: 15px;
 }
 
 .sideBar {
   display: flex;
   flex-direction: column;
   padding: 30px;
-  width: 35%;
-  background-color: rgb(128, 128, 128, .3);
+  width: 20%;
+  background-color: rgb(128, 128, 128, 0.3);
   font-family: sans-serif;
   text-align: center;
 }
@@ -117,7 +160,7 @@ a:focus {
   padding-left: 15px;
   padding-right: 15px;
   height: 30px;
-  background-color: rgb(128, 128, 128, .3);
+  background-color: rgb(128, 128, 128, 0.3);
 }
 
 .footerText {
@@ -139,6 +182,10 @@ a:focus {
     height: auto;
   }
 
+  .container {
+    width: auto;
+  }
+
   .posts {
     width: auto;
   }
@@ -149,8 +196,7 @@ a:focus {
 }
 
 @media (min-width: 150px) and (max-width: 480px) {
-
-  .botton{
+  .botton {
     font-size: 0%;
   }
 
@@ -158,6 +204,10 @@ a:focus {
     display: flex;
     flex-direction: column;
     height: auto;
+  }
+
+  .container {
+    width: auto;
   }
 
   .posts {

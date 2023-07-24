@@ -14,7 +14,7 @@
   background-image: url(https://raw.githubusercontent.com/tiagrossin/SPRINT1_ANGULAR/main/NIVEL2/images/fixedheader.jpg);
   background-size: cover;
   background-position: center;
-  height: auto;
+  height: 400px;
 }
 
 .menu {
@@ -27,22 +27,21 @@
   align-items: center;
 }
 
-.middleMenuText {
+.botton {
+  display: flex;
   width: 100%;
   height: 30px;
   border: 2px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  align-items: center;
+  justify-content: center;
 }
 
-.ribbon {
+.slogan {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  padding: 15px;
-  border: 2px solid black;
-}
-
-.ribbonText {
-  height: 30px;
+  height: 100%;
   border: 2px solid black;
 }
 

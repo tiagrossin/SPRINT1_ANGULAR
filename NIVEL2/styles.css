@@ -40,31 +40,46 @@
   justify-content: center;
 }
 
+a:hover,
+a:focus {
+  filter: sepia(100%);
+  background-color:rgb(117, 58, 19);
+}
+
 .socials {
   display: flex;
   flex-direction: row-reverse;
   gap: 5%;
   width: 100%;
   height: 30px;
-  
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
 }
 
 .slogan {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+  background-color: rgba(128, 128, 128, 0.3);
+  width: 80%;
+  padding: 5%;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: rgba(255, 140, 0, 0.453);
 }
 
 .body {
   display: flex;
   flex-direction: row;
   gap: 15px;
-  padding: 15px;
-  height: 165px;
-  border: 2px solid black;
+  height: auto;
 }
 
-.bodyText {
+.posts {
   display: grid;
   grid-template-columns: 50% auto;
   gap: 15px;
@@ -75,7 +90,7 @@
   align-content: center;
 }
 
-.paragraphs {
+.postThumnail {
   height: 30px;
   border: 2px solid black;
 }
@@ -89,28 +104,32 @@
 .sideBar {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  padding: 15px;
+  padding: 30px;
   width: 35%;
-  border: 2px solid black;
-}
-
-.sideBarText {
-  height: 30px;
-  border: 2px solid black;
+  background-color: rgb(128, 128, 128, .3);
+  font-family: sans-serif;
+  text-align: center;
 }
 
 .footer {
   display: flex;
   flex-direction: column;
-  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   height: 30px;
-  border: 2px solid black;
+  background-color: rgb(128, 128, 128, .3);
 }
 
 .footerText {
+  display: flex;
+  flex-direction: row;
   height: 30px;
-  border: 2px solid black;
+  background-color: whitesmoke;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: smaller;
 }
 
 @media (min-width: 480px) and (max-width: 1024px) {
@@ -120,7 +139,7 @@
     height: auto;
   }
 
-  .bodyText {
+  .posts {
     width: auto;
   }
 
@@ -130,13 +149,18 @@
 }
 
 @media (min-width: 150px) and (max-width: 480px) {
+
+  .botton{
+    font-size: 0%;
+  }
+
   .body {
     display: flex;
     flex-direction: column;
     height: auto;
   }
 
-  .bodyText {
+  .posts {
     width: auto;
     display: flex;
     flex-direction: column;
